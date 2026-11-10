@@ -1,0 +1,13 @@
+:root { --ink: #1b1b1b; --paper: #fffaf0; --yellow: #ffd23f; --teal: #12a594; --muted: #4a4a4a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 Arial, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 40px 16px 64px; }
+h1, h2 { font-family: "Arial Black", Arial, sans-serif; line-height: 1.2; }
+h1 { font-size: 32px; margin: 16px 0 8px; }
+h2 { font-size: 20px; margin: 32px 0 8px; }
+a { color: var(--teal); }
+.logo { width: 180px; height: 180px; border-radius: 50%; border: 4px solid var(--ink); display: block; }
+.lead { font-size: 20px; }
+.muted { color: var(--muted); font-size: 15px; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 2px solid var(--ink); }
+ul { padding-left: 20px; }
